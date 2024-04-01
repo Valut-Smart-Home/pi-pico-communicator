@@ -11,14 +11,14 @@ Additionally there is one more RX only UART 9200 8N1 PIO driven interface on GP2
 ## USB Serial 0 - Control for PI PICO
 Controls interface setup for UART0 and UART1. Switches actually active 75176B by MCP230008 setup.
 
-## USB Serial 1 - Control for PI PICO
+## USB Serial 1 - UART0
 Connected directly with hardware UART0
 
-## USB Serial 2 - Control for PI PICO
+## USB Serial 2 - UART1
 Connected directly with hardware UART1
 
-## USB Serial 3 - Control for PI PICO
-Connected with PIO driven TX/RX interface
+## USB Serial 3 - Tx/Rx
+Connected with PIO driven Tx/Rx interface
 
-## USB Serial 4 - Control for PI PICO
+## USB Serial 4 - Rx
 Connected to RX only PIO driven interface
